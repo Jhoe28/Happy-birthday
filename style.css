@@ -1,0 +1,28 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   display: grid;
+   height: 100vh;
+   height: 100dvh;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("discount 1.jpeg");
+}
+h1{
+   text-align: center;
+   color: white;
+   font-size: clamp(3rem, calc(7vw + 1rem), 10rem);
+   background: url('download.jpeg') center;
+   background-size: cover;
+   background-clip: text;
+   color: transparent;
+   animation: animate 5s linear infinite;
+}
+@keyframes animate {
+   to{
+      background-position-x: -200px;
+   }
+}
